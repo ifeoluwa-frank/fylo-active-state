@@ -1,0 +1,277 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  width: 1440px;
+  margin: auto;
+}
+
+header {
+  display: inline-flex;
+  width: 91%;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-left: 70px;
+  margin-right: 70px;
+  font-family: "Raleway", sans-serif;
+  /* background-color: red */
+}
+
+.logo {
+  width: 150px;
+}
+
+.top-nav {
+  width: 15%;
+  display: inline-flex;
+  font-size: small;
+  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+  justify-content: space-between;
+  color: hsl(243, 87%, 12%);
+}
+
+.headings {
+  width: 86%;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.4;
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 20px;
+  color: hsl(243, 87%, 12%);
+}
+
+.headings-2 {
+  width: 100%;
+  font-size: 33px;
+  font-weight: 700;
+  line-height: 1.4;
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 20px;
+  color: hsl(243, 87%, 12%);
+}
+
+.section-1-paragraph {
+  font-size: 16px;
+  width: 74%;
+  line-height: 1.4;
+  margin-bottom: 20px;
+  color: hsl(238, 22%, 44%);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+.section-2-paragraph {
+  font-size: 16px;
+  width: 83%;
+  line-height: 1.4;
+  margin-bottom: 20px;
+  color: hsl(238, 22%, 44%);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+.section-1 {
+  display: flex;
+  padding: 0 70px;
+  align-items: center;
+  max-width: 1440px;
+  margin-bottom: 10%;
+}
+
+.svg-1 {
+  margin-top: 50px;
+}
+
+.first-box {
+  width: 100%;
+}
+
+input {
+  padding: 12px;
+  width: 40%;
+  margin-right: 10px;
+  font-size: 10px;
+  color: hsl(240, 75%, 98%);
+}
+
+.btn-get-started {
+  padding: 14px 55px;
+  cursor: pointer;
+  background-color: hsl(224, 93%, 58%);
+  color: hsl(240, 75%, 98%);
+  border: none;
+  font-size: 10px;
+  border-radius: 3px;
+}
+
+.btn-get-started:hover {
+  background-color: hsl(223, 86%, 72%);
+}
+
+.section-2 {
+  display: flex;
+  align-items: center;
+  max-width: 1440px;
+  background: url("images/bg-curve-desktop.svg");
+}
+
+.flex-1 {
+  margin-top: 5%;
+  padding-top: 10%;
+  padding-left: 70px;
+  padding-bottom: 70px;
+  background-color: hsl(240, 75%, 98%);
+}
+
+.flex-2 {
+  margin-top: 5%;
+  padding-top: 8%;
+  background-color: hsl(240, 75%, 98%);
+}
+
+aside {
+  box-shadow: 0 2px 2px 0 rgba(105, 104, 104, 0.2),
+    0 2px 2px 0 rgba(0, 0, 0, 0.19);
+  padding: 20px;
+  margin-top: 20px;
+  width: 50%;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.works-link {
+  display: inline-flex;
+  text-decoration: none;
+  color: hsl(170, 45%, 43%);
+  border-bottom: 1px solid hsl(170, 45%, 43%);
+  width: 26.5%;
+}
+
+.works-link:hover {
+  color: hsl(180, 50%, 50%);
+  border-bottom: 1px solid hsl(180, 50%, 50%);
+}
+
+.arrow-img:hover {
+  fill: hsl(180, 50%, 50%);
+}
+.link-text {
+  margin-right: 15px;
+}
+
+.arrow-img {
+  object-fit: contain;
+}
+
+.quote-img {
+  margin-bottom: 10px;
+}
+
+.comment-paragraph {
+  font-size: 12px;
+  width: 90%;
+  line-height: 1.4;
+  margin-bottom: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+.testimonial-author {
+  display: inline-flex;
+}
+
+.testimonial-img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.testimonial-name {
+  font-size: 10px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.testimonial-role {
+  font-size: 8px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.section-3 {
+  display: flex;
+  padding: 80px 70px;
+  align-items: center;
+  max-width: 1440px;
+  background-color: hsl(238, 22%, 44%);
+  /* margin-bottom: 10%; */
+}
+
+.left-flex {
+  width: 50%;
+}
+
+.section-3-heading {
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 20px;
+}
+
+.section-3-paragraph {
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  width: 75%;
+}
+
+.right-flex {
+  width: 50%;
+}
+
+.section-3-input {
+  padding: 15px 20px;
+  width: 80%;
+  margin-bottom: 15px;
+}
+
+footer {
+  background-color: hsl(243, 87%, 12%);
+  color: #fff;
+  padding: 80px 70px 0 70px;
+}
+
+.footer-logo {
+  margin-bottom: 20px;
+  color: #fff;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 70px;
+}
+
+.phone,
+.mail {
+  display: flex;
+  margin-bottom: 20px;
+}
+.phone-img,
+.mail-img {
+  margin-right: 20px;
+}
+
+.foooter-text {
+  margin-bottom: 20px;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #fff;
+}
