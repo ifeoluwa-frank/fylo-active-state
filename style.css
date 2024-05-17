@@ -60,7 +60,7 @@ header {
   width: 74%;
   line-height: 1.4;
   margin-bottom: 20px;
-  color: hsl(238, 22%, 44%);
+  color: hsl(243, 87%, 12%);
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
 }
@@ -70,7 +70,7 @@ header {
   width: 83%;
   line-height: 1.4;
   margin-bottom: 20px;
-  color: hsl(238, 22%, 44%);
+  color: hsl(243, 87%, 12%);
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
 }
@@ -149,7 +149,8 @@ aside {
   text-decoration: none;
   color: hsl(170, 45%, 43%);
   border-bottom: 1px solid hsl(170, 45%, 43%);
-  width: 26.5%;
+  font-family: "Open Sans", sans-serif;
+  width: 28.5%;
 }
 
 .works-link:hover {
@@ -179,6 +180,7 @@ aside {
   margin-bottom: 20px;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
+  color: hsl(243, 87%, 12%);
 }
 
 .testimonial-author {
@@ -252,6 +254,7 @@ footer {
   justify-content: space-between;
   font-family: "Open Sans", sans-serif;
   margin-bottom: 70px;
+  color: hsl(240, 75%, 98%);
 }
 
 .phone,
@@ -264,8 +267,16 @@ footer {
   margin-right: 20px;
 }
 
-.foooter-text {
+.foooter-link {
   margin-bottom: 20px;
+  text-decoration: none;
+  color: hsl(240, 75%, 98%);
+}
+
+.footer-link-1,
+.footer-link-2 {
+  display: flex;
+  flex-direction: column;
 }
 .attribution {
   font-size: 11px;
@@ -274,4 +285,216 @@ footer {
 
 .attribution a {
   color: #fff;
+}
+
+/* MOBILE DESIGN */
+
+@media screen and (max-width: 600px) {
+  .main-container {
+    width: 600px;
+    margin: auto;
+  }
+
+  header {
+    /* display: inline-flex; */
+    width: 75%;
+  }
+
+  .top-nav {
+    width: 50%;
+    font-size: 18px;
+    font-weight: 0;
+  }
+
+  .logo {
+    width: 120px;
+  }
+
+  .section-1 {
+    flex-direction: column;
+  }
+
+  .first-box {
+    order: 2;
+  }
+
+  .section-1 {
+    max-width: 600px;
+    text-align: center;
+  }
+
+  .svg-1 {
+    margin-top: 150px;
+    margin-bottom: 50px;
+    width: 90%;
+    text-align: center;
+  }
+
+  .headings {
+    width: 95%;
+    font-size: 34px;
+    font-weight: bolder;
+    margin-bottom: 35px;
+  }
+
+  .section-1-paragraph {
+    font-size: 20px;
+    width: 95%;
+    margin-bottom: 35px;
+  }
+
+  .section-1-form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form-input {
+    width: 90%;
+    margin-bottom: 15px;
+    font-size: medium;
+    color: hsl(0, 0%, 75%);
+  }
+
+  .section-1-btn {
+    font-size: 20px;
+  }
+  .btn-get-started {
+    width: 90%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .section-2 {
+    flex-direction: column-reverse;
+    background-image: url(images/bg-curve-mobile.svg);
+    margin-top: 140px;
+    align-items: center;
+  }
+
+  .flex-2 {
+    width: 100%;
+    margin-top: 40px;
+    padding: 50px;
+  }
+
+  .flex-1 {
+    margin-top: 0;
+  }
+
+  .headings-2 {
+    width: 78%;
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .section-2-paragraph {
+    font-size: 18px;
+    width: 80%;
+  }
+
+  .works-link {
+    text-align: center;
+    margin-left: 100px;
+    width: 34%;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    padding-bottom: 8px;
+  }
+
+  aside {
+    width: 80%;
+    padding: 30px;
+  }
+
+  .comment-paragraph {
+    font-size: 16px;
+    width: 98%;
+    line-height: 1.6;
+  }
+
+  .quote-img {
+    width: 20px;
+  }
+
+  .testimonial-img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .testimonial-name {
+    font-size: 13px;
+  }
+
+  .testimonial-role {
+    font-size: 10px;
+  }
+
+  .testimonial-details {
+    margin-top: 5px;
+  }
+
+  .section-3 {
+    flex-direction: column;
+  }
+
+  .left-flex {
+    width: 100%;
+    text-align: center;
+  }
+
+  .section-3-heading {
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+  .section-3-paragraph {
+    width: 100%;
+    margin-bottom: 35px;
+    font-size: 23px;
+  }
+
+  .right-flex {
+    width: 100%;
+  }
+
+  .section-3-input {
+    padding: 15px 20px;
+    width: 90%;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    font-size: medium;
+    color: hsl(0, 0%, 75%);
+  }
+
+  .btn-get-started-for-free {
+    margin-left: 15px;
+    font-size: medium;
+  }
+
+  .footer-logo {
+    width: 300px;
+    margin-bottom: 70px;
+  }
+
+  .footer {
+    flex-direction: column;
+  }
+
+  .contact-info {
+    font-size: 25px;
+    margin-bottom: 60px;
+  }
+
+  .footer-link-1 {
+    font-size: 25px;
+    margin-bottom: 60px;
+  }
+
+  .footer-link-2 {
+    font-size: 25px;
+    margin-bottom: 60px;
+  }
+
+  .social-media-svgs {
+    align-self: center;
+  }
 }
