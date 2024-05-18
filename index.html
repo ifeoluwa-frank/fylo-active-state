@@ -34,12 +34,17 @@
     <section class="section-1">
       <div class="first-box">
         <h2 class="headings">All your files in one secure location, accessible anywhere.</h2>
-        <p class="section-1-paragraph">Fylo stores your most important files in one secure location. 
+        <p class="section-1-paragraph">Fylo stores your most important files in   one secure location. 
           Access them wherever you need, share and collaborate with friends, 
           family, and co-workers.
         </p>
         <form class="section-1-form">
-          <input type="email" placeholder="Enter your email..." class="form-input">
+          <div class="input-area">
+            <input type="email" spellcheck="false" placeholder="Enter your email..." class="form-input" id="form-input" onkeyup="validateEmail()">
+            <div class="email-error">
+              <span id="email-error"></span>
+            </div>
+          </div>
           <button class="btn-get-started section-1-btn">Get Started</button>
         </form>
       </div>
@@ -94,7 +99,10 @@
       </div>
       <div class="right-flex">
         <form>
-          <input type="email" placeholder="email@example.com" class="section-3-input"><br>
+          <input type="email" placeholder="email@example.com" class="section-3-input" onkeyup="validateEmailSectionThree()"><br>
+          <div class="email-error-section-3">
+            <span id="email-error-section-3"></span>
+          </div>
           <button class="btn-get-started btn-get-started-for-free">Get Started For Free</button>
         </form>
       </div>
@@ -136,5 +144,6 @@
     </p>
   </footer>
 </div>
+<script src="/script.js"></script>
 </body>
 </html>
