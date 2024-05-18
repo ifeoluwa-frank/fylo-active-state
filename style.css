@@ -5,7 +5,7 @@
 }
 
 .main-container {
-  width: 1440px;
+  max-width: 1440px;
   margin: auto;
 }
 
@@ -315,7 +315,7 @@ footer {
 
 @media screen and (max-width: 600px) {
   .main-container {
-    width: 600px;
+    max-width: 600px;
     margin: auto;
   }
 
